@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>report_web_application_code</RootNamespace>
+    <UserSecretsId>cebffd77-60f0-44db-b280-01e0ecf64a8e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\arrow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+	  <PackageReference Include="FastReport.Data.Postgres" Version="2023.2.0" />
+
+	  <PackageReference Include="Npgsql" Version="7.0.1" />
+
+
+	  <PackageReference Include="FastReport.Core" Version="2023.2.14-demo" />
+    <PackageReference Include="FastReport.Web" Version="2023.2.14-demo" />
+  </ItemGroup>
+
+</Project>
